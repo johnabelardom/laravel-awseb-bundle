@@ -1,0 +1,33 @@
+branch-defaults:
+  aws/eb:
+    environment: Spyful-env
+  master:
+    environment: Spyful-env
+  product/journal:
+    environment: Spyful-env
+  pin/interests:
+    environment: Spyful-env
+  ux-imprv:
+    environment: Spyful-env
+  shopify-publisher:
+    environment: Spyful-env
+  translation/v3:
+    environment: Spyful-env
+  staff:
+    environment: Spyful-env
+environment-defaults:
+  Spyful-env:
+    branch: null
+    repository: null
+global:
+  application_name: Spyful
+  default_ec2_keyname: null
+  default_platform: PHP 8.0 running on 64bit Amazon Linux 2
+  default_region: ap-southeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
